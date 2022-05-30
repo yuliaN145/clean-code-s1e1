@@ -150,14 +150,14 @@ input[type=text] {
 }
 
 ul 
-li.editMode 
+li.edit-mode 
 input[type=text] {
   display: inline-block;
   width: 224px
 }
 
 ul 
-li.editMode 
+li.edit-mode 
 label {
   display: none;
 }
