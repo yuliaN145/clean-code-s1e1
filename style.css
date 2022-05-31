@@ -52,7 +52,7 @@
   list-style: none;
 }
 .main-content__input,
-.main-content__btn{
+.main-content__btn {
   outline: none;
 }
 .main-content__btn {
@@ -125,7 +125,7 @@
   font-size: 18px;
   width: 226px;
 }
-.point >    .main-content__input[type="text"] {
+.point > .main-content__input[type="text"] {
   width: 226px;
 }
 .main-content__btn.delete 
