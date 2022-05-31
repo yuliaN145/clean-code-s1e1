@@ -149,13 +149,13 @@
 /* Edit Task */
 .main-content__list 
 .point 
-.main-content__input[type=text] {
+.main-content__input[type="tex"t] {
   display: none;
 }
 
 .main-content__list 
 .point.edit-mode 
-.main-content__input[type=text] {
+.main-content__input[type="text"] {
   display: inline-block;
   width: 224px
 }
