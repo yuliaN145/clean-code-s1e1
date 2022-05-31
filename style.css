@@ -31,11 +31,16 @@ img {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.main-content__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+.title {
+    width: 56%;
+    display: inline-block;
+    flex-grow: 1;
+  }
 .task-row-wrapper {
   display: flex;
 }
@@ -65,7 +70,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="new-task"] {
+label[for="main-content__title"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -91,7 +96,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+label[for="main-content__title"] {
   display: block;
   margin: 0 0 20px;
 }
