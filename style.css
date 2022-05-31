@@ -96,6 +96,7 @@
 
 /* New Task */
 .title[for="main-content__title"] {
+  width: 100%;
   display: block;
   margin: 0 0 20px;
 }
