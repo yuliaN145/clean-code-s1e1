@@ -150,7 +150,7 @@
 /* Edit Task */
 .main-content__list 
 .point 
-.main-content__input[type="tex"t] {
+.main-content__input[type="text"] {
   display: none;
 }
 
