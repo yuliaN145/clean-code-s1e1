@@ -1,5 +1,5 @@
 /* Basic Style */
- body {
+ .content {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -30,7 +30,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.main-content__input {
+.point__input, 
+.task-row-wrapper__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -51,7 +52,8 @@
 .main-content__titleh3 {
   list-style: none;
 }
-.main-content__input,
+.point__input, 
+.task-row-wrapper__input,
 .main-content__btn {
   outline: none;
 }
@@ -78,7 +80,8 @@
   margin: 0;
   text-transform: uppercase;
 }
-.main-content__input[type="text"] {
+.point__input[type="text"], 
+.task-row-wrapper__input[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -90,7 +93,10 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.main-content__input[type="text"]:focus {
+.point__input[type="text"]:focus {
+  color: #333;
+}
+.task-row-wrapper__input[type="text"]:focus {
   color: #333;
 }
 
@@ -126,7 +132,8 @@
   font-size: 18px;
   width: 226px;
 }
-.point > .main-content__input[type="text"] {
+.point > .point__input[type="text"], 
+.task-row-wrapper__input[type="text"] {
   width: 226px;
 }
 .main-content__btn.delete 
@@ -150,13 +157,15 @@
 /* Edit Task */
 .main-content__list 
 .point 
-.main-content__input[type="text"] {
+.point__input[type="text"], 
+.task-row-wrapper__input[type="text"] {
   display: none;
 }
 
 .main-content__list 
 .point.edit-mode 
-.main-content__input[type="text"] {
+.point__input[type="text"], 
+.task-row-wrapper__input[type="text"] {
   display: inline-block;
   width: 224px
 }
