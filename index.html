@@ -5,7 +5,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
-<body>
+<body class="content">
   <header class="header">
     <img src="./eisenhower-matrix.jpg" alt="logo" class="header__img content__img">
     <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
@@ -14,7 +14,7 @@
     <p id="main-content__text">
       <label for="main-content__title" class="title">Add Item</label>
       <div class="task-row-wrapper">
-        <input id="new-task" class="main-content__input" type="text">
+        <input id="new-task" class="main-content__input task-row-wrapper__input" type="text">
         <button class="main-content__btn">Add</button>
       </div>
     </p>
@@ -23,7 +23,7 @@
       <li class="point">
         <input type="checkbox">
         <label class="title">Pay Bills</label>
-        <input type="text" class="main-content__input">
+        <input type="text" class="main-content__input point__input">
         <button class="main-content__btn edit">Edit</button>
         <button class="main-content__btn delete">
           <img src="./remove.svg" alt="" class="content__img">
@@ -32,7 +32,7 @@
       <li class="edit-mode point">
         <input type="checkbox">
         <label class="title">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="main-content__input">
+        <input type="text" value="Go Shopping" class="main-content__input point__input">
         <button class="main-content__btn edit">Save</button>
         <button class="main-content__btn delete">
           <img src="./remove.svg" alt="" class="content__img">
@@ -44,7 +44,7 @@
       <li class="point">
         <input type="checkbox" checked>
         <label class="title">See the Doctor</label>
-        <input type="text" class="main-content__input">
+        <input type="text" class="main-content__input point__input">
         <button class="main-content__btn edit">Edit</button>
         <button class="main-content__btn delete">
           <img src="./remove.svg" alt="" class="content__img">
